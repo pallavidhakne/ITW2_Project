@@ -1,0 +1,232 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins",sans-serif;
+}
+body{
+    background-image: url("/image/backwestern.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgb(29 3 30) /*#1c0728;*/
+    
+}
+
+#history{
+    position: absolute;
+    left: 1400px;
+    top:30px;
+    text-decoration: none;
+    color: #0bd9ee;
+    font-size: 31px;
+}
+#instrument{
+    text-decoration: none;
+    position: absolute;
+    font-size: 31px;
+    color: #0cd9ee;
+    left: 1195px;
+    top: 30px;
+}
+#social{
+    position: absolute;
+    left: 550px;
+    top:30px;
+    text-decoration: none;
+    color: #0bd9ee;
+    font-size: 31px;
+}
+#home{
+    position: absolute;
+    left: 50px;
+    top:30px;
+    text-decoration: none;
+    color: #0bd9ee;
+    font-size: 31px;  
+}
+.content
+{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 300px;
+    min-height: 60vh;
+    
+    
+}
+h2
+{
+    position:relative;
+    font-size: 5vw;
+    -webkit-text-stroke: 0.3vw rgb(29 3 30);
+    
+}
+
+h2::before
+{
+    content: attr(data-text);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    color: #0bd9ee;
+    -webkit-text-stroke:0vw #383d52;
+    border-right: 2px solid #0bd9ee;;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+}
+@keyframes animate
+{
+    0%,10%,100%
+    {
+        width: 0;
+
+    }
+    70%,90%
+    {
+        width: 100%;
+    }
+}
+.container{
+    position: absolute;
+    left: 650px;
+    top:570px;
+    text-decoration: none;
+    
+    font-size: 15px;
+
+}
+.container h3{
+    font-size: 30px;
+    color: #d82cc1;
+
+}
+p{
+    font-style: oblique;
+    color: #fcf5fe;
+}
+#formlink{
+    position:absolute;
+    
+    font-family: consolas;
+    text-decoration: none;
+    top: 765px;
+    right: 511px;
+    width: 18%;
+    color: #0bd9ee;
+    font-size: 24px;  
+    padding: 2px;
+    overflow: hidden;
+    transition: 0.5s;
+}
+a span
+{
+    position: absolute;
+    display: block;
+}
+a:hover
+{
+    color:#255784;
+    background:#8cc7f7;
+    box-shadow: 0 0 10px #8cc7f7,0 0 10px #8cc7f7,0 0 10px,#8cc7f7;
+    transition-delay: 1s;
+}
+
+
+#m1{
+    position: absolute;
+    top: 200px;
+    left: -126px;
+
+}
+#m2{
+    position: absolute;
+    top: 200px;
+    left: 218px;
+}
+
+#question{
+    position: absolute;
+    top: 459px;
+    left: 730px;
+    font-size: 35px;
+    color: #28848e;
+}
+
+#txt{
+    position: absolute;
+    top: -41px;
+    left: 79px;
+    width: 756px;
+    font-size: 21px;
+    font-family: cursive;
+}
+
+#facebookimg{
+    position: absolute;
+    left: 1115px;
+    top: 898px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#linkedinimg{
+    position: absolute;
+    left: 1376px;
+    top: 898px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#imginsta{
+    position: absolute;
+    left: 1245px;
+    top: 898px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+
+
+#facebook{
+    position: absolute;
+    font-size: 20px;
+    left: 1140px;
+    top: 897px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#linkedin{
+    position: absolute;
+    font-size: 20px;
+    left: 1400px;
+    top: 897px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#insta{
+    position: absolute;
+    font-size: 20px;
+    left: 1270px;
+    top: 897px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+
+
+#music{
+    position: absolute;
+    top: 859px;
+    left: 36px;
+    font-size: 68px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;
+}

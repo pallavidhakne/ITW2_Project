@@ -1,0 +1,195 @@
+body{
+    background-color: #fdfdfd;
+}
+#first{
+    background-image: url("/image/homeimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 900px;
+    min-height: 100%;
+    animation:animate 3s linear infinite;
+ }
+ @keyframes animate
+ {
+     0%{
+         filter: hue-rotate(0deg);
+     }
+     100%
+     {
+         filter: hue-rotate(360deg);
+     }
+ }
+ /* img{
+    width: 100%;
+    height: 800px; 
+ } */
+#graphic_img{
+    position: absolute;
+    top: 957px;
+    height: 646px;
+    width: 69%;
+    left: 50px;
+}
+ #sec{
+     height: 740px;
+     /* border: crimson solid 2px; */
+     padding: 2px;
+ }
+#txt3{
+    position: absolute;
+    top: 900px;
+    left: 1150px;
+    width: 15%;
+    height: 580px;
+    color: #04205b;
+    font-family: cursive;
+    font-size: 24px;
+    border: solid 3px white;
+    padding: 30px;
+}
+#formlink{
+    position: absolute;
+    top: 1560px;
+    left: 1180px;
+    width: 15%;
+    /* height: 580px; */
+    color: #04205b;
+    font-size: 26px;
+    /* border: solid 3px white; */
+    padding: 2px;
+}
+#classical{
+    position: absolute;
+    left: 50px;
+    top:50px;
+    text-decoration: none;
+    color: #0bd9ee;
+    font-size: 31px;
+}
+#facebook{
+    position: absolute;
+    font-size: 20px;
+    left: 1140px;
+    top: 1658px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#linkedin{
+    position: absolute;
+    font-size: 20px;
+    left: 1400px;
+    top: 1658px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#insta{
+    position: absolute;
+    font-size: 20px;
+    left: 1270px;
+    top: 1658px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#facebookimg{
+    position: absolute;
+    left: 1115px;
+    top: 1678px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#linkedinimg{
+    position: absolute;
+    left: 1376px;
+    top: 1678px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#imginsta{
+    position: absolute;
+    left: 1245px;
+    top: 1680px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#third{
+    height: 200px;
+    background-color: #130e25;
+}
+#western{
+    position: absolute;
+    left: 374px;
+    top:50px;
+    text-decoration: none;
+    color: #0bd9ee;
+    font-size: 31px;
+}
+#home{
+    position: absolute;
+    left: 1380px;
+    top:50px;
+    text-decoration: none;
+    color: #0bd9ee;
+    font-size: 31px;   
+}
+
+#txt{
+    position: absolute;
+    left:809px;
+    top:180px;
+    font-style: italic;
+    color: #0bd9ee;
+    font-size: 34px;
+    right: 210px;
+}
+
+#txt2{
+    position: absolute;
+    left:290px;
+    top:230px;
+    font-style: italic;
+    color: #0bd9ee;
+    font-size: 34px;
+    right: 240px;
+}
+
+#music{
+    position: absolute;
+    top: 1685px;
+    left: 36px;
+    font-size: 68px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;
+}
+#email{
+    position: absolute;
+    top: 1790px;
+    left: 1280px;
+    font-size: 21px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;
+}
+
+#ds{
+    position: absolute;
+    top: 1790px;
+    left: 1075px;
+    font-size: 21px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;   
+}

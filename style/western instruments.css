@@ -1,0 +1,159 @@
+#guitar{
+    position: absolute;
+    left: 602px;
+    top: 150px;
+    width: 804px;
+    font-size: 23px;
+    font-family: cursive;
+}
+#heading{
+    position: inherit;
+    padding-left: 46px;
+    font-size: 43px;
+}
+
+#home{
+    position: absolute;
+    font-size: 36px;
+    top: 30px;
+    left: 1392px;
+    text-decoration: none;
+}
+
+
+#drum{
+    /* position: relative; */
+    /* border: black solid 3px; */
+    height: 250px;
+    width: 900px;
+}
+#drumimg{
+    position: absolute;
+    top: 406px;
+    left: 1051px;
+    height: 338px;
+}
+#drumtxt{
+    font-size: 23px;
+    font-family: cursive;
+}
+#double_bass{
+    position: absolute;
+    top: 754px;
+    left: 574px;
+    width: 801px;
+    font-size: 23px;
+    font-family: cursive;
+}
+
+#violinimg{
+    position: absolute;
+    height: 426px;
+    top: 1006px;
+    width: 550px;
+    left: 908px;
+}
+#violintxt{
+    font-size: 23px;
+    font-family: cursive;
+}
+#violin{
+    width: 857px;
+    height: 326px;
+}
+
+
+#music{
+    position: absolute;
+    top: 1518px;
+    left: 36px;
+    font-size: 53px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;
+}
+#email{
+    position: absolute;
+    top: 1586px;
+    left: 1280px;
+    font-size: 21px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;
+    text-decoration: none;
+}
+
+#ds{
+    position: absolute;
+    top: 1586px;
+    left: 1075px;
+    font-size: 21px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;   
+}
+
+
+#third{
+    height: 200px;
+    background-color: #050505;
+}
+
+
+#facebook{
+    position: absolute;
+    font-size: 20px;
+    left: 1141px;
+    top: 1453px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#linkedin{
+    position: absolute;
+    font-size: 20px;
+    left: 1400px;
+    top: 1453px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#insta{
+    position: absolute;
+    font-size: 20px;
+    left: 1270px;
+    top: 1453px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#facebookimg{
+    position: absolute;
+    left: 1115px;
+    top: 1473px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#linkedinimg{
+    position: absolute;
+    left: 1376px;
+    top: 1473px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#imginsta{
+    position: absolute;
+    left: 1245px;
+    top: 1473px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}

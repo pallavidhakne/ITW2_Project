@@ -1,0 +1,177 @@
+#piano{
+    position: absolute;
+    left: 692px;
+    top: 129px;
+    width: 634px;
+    font-size: 23px;
+    font-family: cursive;
+}
+#heading{
+    position: inherit;
+    padding-left: 46px;
+    font-size: 43px;
+}
+#clarinet{
+    /* position: relative; */
+    /* border: black solid 3px; */
+    height: 250px;
+    width: 900px;
+}
+#clarinetimg{
+    position: absolute;
+    top: 406px;
+    left: 1051px;
+    height: 338px;
+}
+#clarinettxt{
+    font-size: 23px;
+    font-family: cursive;
+}
+#double_bass{
+    position: absolute;
+    top: 754px;
+    left: 574px;
+    width: 801px;
+    font-size: 23px;
+    font-family: cursive;
+}
+#trumpetimg{
+    position: absolute;
+    height: 300px;
+    top: 1083px;
+    width: 500px;
+    left: 965px;
+}
+#trumpettxt{
+    font-size: 23px;
+    font-family: cursive;
+}
+#trumpet{
+    width: 857px;
+    height: 326px;
+}
+#flute{
+    position: absolute;
+    top: 1449px;
+    left: 550px;
+    font-size: 23px;
+    font-family: cursive;
+    width: 791px;
+}
+#harpimg{
+    position: absolute;
+    height: 418px;
+    top: 1733px;
+    left: 942px;
+    width: 599px;
+}
+#harptxt{
+    font-size: 23px;
+    font-family: cursive;
+}
+#harp{
+    height: 320px;
+    width: 919px;
+}
+
+
+#music{
+    position: absolute;
+    top: 2236px;
+    left: 36px;
+    font-size: 53px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;
+}
+#email{
+    position: absolute;
+    top: 2301px;
+    left: 1280px;
+    font-size: 21px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;
+    text-decoration: none;
+}
+
+#ds{
+    position: absolute;
+    top: 2301px;
+    left: 1075px;
+    font-size: 21px;
+    color: white;
+    /* font-size: 29px; */
+    font-style: italic;
+    /* font-family: cursive; */
+    font-family: serif;   
+}
+
+#third{
+    height: 200px;
+    background-color: #050505;
+}
+
+
+#facebook{
+    position: absolute;
+    font-size: 20px;
+    left: 1140px;
+    top: 2149px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#linkedin{
+    position: absolute;
+    font-size: 20px;
+    left: 1400px;
+    top: 2149px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#insta{
+    position: absolute;
+    font-size: 20px;
+    left: 1270px;
+    top: 2149px;
+    /* height: 30px;
+    width: 30px; */
+    color: white;
+}
+#facebookimg{
+    position: absolute;
+    left: 1115px;
+    top: 2169px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#linkedinimg{
+    position: absolute;
+    left: 1376px;
+    top: 2169px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#imginsta{
+    position: absolute;
+    left: 1245px;
+    top: 2169px;
+    height: 20px;
+    width: 20px;
+    color: white;
+}
+#home{
+    position: absolute;
+    font-size: 36px;
+    top: 30px;
+    left: 1392px;
+    text-decoration: none;
+}
